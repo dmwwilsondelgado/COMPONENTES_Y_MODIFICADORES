@@ -1,0 +1,48 @@
+:root {
+    --violeta: #dfc9e6;
+    --amarillo: #edda4c;
+    --rojo: #c95b59;
+    --azul: #3440c2;
+  }
+  
+  .boton--border {
+    border: solid 1px #323233;
+    background-color: #fff;
+    color: blueviolet;
+  }
+  
+  .boton:hover {
+    background-color: #ffff;
+    color: blueviolet;
+    border: solid 1px rgb(0, 0, 0);
+  }
+  .boton--border:hover {
+    background-color: #bf17f2;
+    color: rgb(255, 255, 255);
+    border: solid 1px pink;
+  }
+  .boton--violeta :hover {
+    border: solid 1px var(--violeta);
+    background: var(--violeta);
+    color: #fff;
+    border: solid 1px #323233;
+  }
+  .boton--amarillo {
+    border: solid 1px var(--amarillo);
+    background: var(--amarillo);
+    color: #fff;
+    border: solid 1px #323233;
+  }
+  .boton--rojo {
+    border: solid 1px var(--rojo);
+    background: var(--rojo);
+    color: #fff;
+    border: solid 1px #323233;
+  }
+  
+  .boton--azul {
+    border: solid 1px var(--azul);
+    background: var(--azul);
+    color: #fff;
+    border: solid 1px #323233;
+  }

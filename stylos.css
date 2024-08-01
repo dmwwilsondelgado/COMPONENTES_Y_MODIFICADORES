@@ -1,50 +1,46 @@
+@import url();
+@import url();
+@import url(componentes/Container.css);
+@import url(Container.css);
+@import url(componentes/Card.css);
+@import url(Card.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url(Navegacion.css);
+@import url(componentes/Navegacion.css);
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
+@import url();
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --color: black;
-}
-  
 body{
     background-color: #ea5455;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+    display: flex;
+    /* display: inline; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-  }
+progress{
   
-  .container {
-    width: 600px;
-    /* background-color: #f1f1f1; */
-      /* margin: auto; */	
-    box-shadow: 7px 13px 37px rgba(0, 0, 0, .5);
-  
-  }
-  section p {
-    overflow: hidden;
-    max-height: 0;
-    text-align: justify;
-    font-family: "Courier New", Courier, monospace;
-    background: #e4e4e4;
-    transition: all 0.2s ease-in;
-  }
-  
-  section a {
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    padding: 10px;
-    font-family: "Courier New", Courier, monospace;
-    background-color: #212121;
-    border-bottom: 2px solid gray;
-    color: white;
-  }
-  
-  section:target p {
-    max-height: 120px;
-    padding: 10px;
-  }
+}
+
+.progress-bar{
+  width: 25%;
+}
+
+

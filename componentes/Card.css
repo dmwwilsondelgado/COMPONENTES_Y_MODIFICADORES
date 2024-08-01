@@ -1,0 +1,39 @@
+/* Card  */
+.Guitarra{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px 10px 10px;
+}
+.contenido{
+    background-color: #fff;
+}
+
+.contenido h2{
+    color: brown;
+}
+
+.img{
+    height: 170px;
+    display: block;
+    border-radius: 10px 10px 10px;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px ;
+    background-color:crimson;
+    color: black;
+    text-decoration: none;
+}
+  
+div{
+    box-shadow: 10px 10px 20px ;
+    width: 300px;
+    border-radius: 10px;
+}
+  
+  /* intente colocar */
+.button :hover{
+   background-color: #d63946;
+  }
