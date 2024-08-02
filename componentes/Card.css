@@ -1,4 +1,4 @@
-/* Card  */
+/* Card 
 .Guitarra{
     display: block;
     text-align: center;
@@ -34,6 +34,38 @@ div{
 }
   
   /* intente colocar */
-.button :hover{
+/* .button :hover{
    background-color: #d63946;
+  } */
+
+
+
+
+
+  /* Tarjeta de producto */
+.Guitarra {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
   }
+  
+  .Guitarra img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

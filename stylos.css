@@ -1,12 +1,12 @@
 @import url();
 @import url();
-@import url(componentes/Container.css);
+/* @import url(componentes/Container.css);
 @import url(Container.css);
 @import url(componentes/Card.css);
 @import url(Card.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url(Navegacion.css);
-@import url(componentes/Navegacion.css);
+@import url(componentes/Navegacion.css); */
 @import url();
 @import url();
 @import url();
@@ -17,6 +17,8 @@
 @import url();
 @import url();
 @import url();
+
+
 * {
     margin: 0;
     padding: 0;
@@ -28,14 +30,14 @@ body{
     background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
     background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
     background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
-    display: flex;
+    /* display: flex; */
     /* display: inline; */
     justify-content: center;
     align-items: center;
     height: 100vh;
    }
 
-progress{
+/* progress{
   
 }
 
@@ -43,4 +45,151 @@ progress{
   width: 25%;
 }
 
+ */
 
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.barra-navegacion {
+    background-color: #343a40; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado */
+}
+
+.contenedor-fluido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marca-barra-navegacion {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.boton-barra-navegacion {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+/* Enlaces de navegación */
+.enlaces-barra-navegacion {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elemento-barra-navegacion {
+    margin: 0 15px;
+}
+
+.enlace-barra-navegacion {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+.enlace-barra-navegacion:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .enlaces-barra-navegacion {
+        display: none; /* Ocultar enlaces en pantallas pequeñas */
+        flex-direction: column; /* Cambiar a columna */
+        position: absolute; /* Posicionamiento absoluto */
+        top: 60px; /* Espaciado desde la parte superior */
+        left: 0;
+        background-color: #343a40; /* Color de fondo */
+        width: 100%; /* Ancho completo */
+    }
+
+    .barra-navegacion-colapsar {
+        display: block; /* Mostrar el menú desplegable */
+    }
+
+    .boton-barra-navegacion.active + .barra-navegacion-colapsar {
+        display: flex; /* Mostrar enlaces al hacer clic */
+    }
+}
+
+/* Barra de progreso */
+.progress {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin: 20px 0;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Secciones */
+.container {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+section p {
+    margin: 10px 0;
+}
+
+/* Tarjeta de producto */
+.Guitarra {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Guitarra img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Spinners */
+.spinner-border {
+    margin: 10px;
+}
