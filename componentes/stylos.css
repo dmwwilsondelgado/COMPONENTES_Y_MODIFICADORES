@@ -1,13 +1,13 @@
 @import url();
 @import url();
-/* @import url(componentes/Container.css);
+@import url(componentes/Container.css);
 @import url(Container.css);
 @import url(componentes/Card.css);
 @import url(Card.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url(Navegacion.css);
-@import url(componentes/Navegacion.css); */
-@import url();
+@import url(componentes/Navegacion.css); 
+@import url(componentes/navegacion.css);
 @import url();
 @import url();
 @import url();

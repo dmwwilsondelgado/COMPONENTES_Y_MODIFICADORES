@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylos.css">
+    <link rel="stylesheet" href="Styles.css">
     <title>Components</title>
 </head>
 
-<body>
-  <nav class="barra-navegacion barra-navegacion-expandir-lg fondo-cuerpo-terciario">
+<div>
+
+
+  <!-- <nav class="barra-navegacion barra-navegacion-expandir-lg fondo-cuerpo-terciario">
     <div class="contenedor-fluido">
       <a class="marca-barra-navegacion" href="#">Barra de navegación con texto</a>
       <button class="boton-barra-navegacion" type="button" data-bs-toggle="colapsar" data-bs-target="#textoBarraNavegacion" aria-controls="textoBarraNavegacion" aria-expanded="false" aria-label="Alternar navegación">
@@ -33,36 +35,70 @@
       </div>
     </div>
   </nav>
+ -->
+
+    <!-- progreso -->
+
   <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
     <div class="progress-bar">25%</div>
   </div>
-    <div class="container">
-		  <section id="menu1">
-			 <a href="#menu1">Menu 1</a>
-			 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
-		  </section>
-		  <section id="menu2">
-			   <a href="#menu2">Menu 2</a>
-			   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
-		  </section>
-		  <section id="menu3">
-			  <a href="#menu3">Menu 3</a>
-			  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
-		  </section>
-		  <section id="menu4">
-			  <a href="#menu4">Menu 4</a>
-			  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
-		  </section>
-    </div>
 
-    <div class="Guitarra">
+
+
+
+
+
+    <div class="Card">
         <div class="contenido">
-          <img src="Imagenes/Guitarra.jpg" alt="Spiderman" class="img">
-          <h2>Guitarra</h2>
+          <img src="Imagenes/Guitarra.jpg" alt="Spiderman" class="img-guitarra">
+          <h2 class="titulo">Guitarra</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, exercitationem.</p>
           <a href="link" class="button">Entra ahora</a>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+    <!-- Munu acordeon -->
+
+  <div class="container-acordeon">
+    <section class="sections-configuration"  id="menu1">
+     <a href="#menu1">Menu 1</a>
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
+    </section> 
+    <section class="sections-configuration"  id="menu2">
+       <a href="#menu2">Menu 2</a>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
+    </section>       
+    <section class="sections-configuration" id="menu3">
+      <a href="#menu3">Menu 3</a>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
+    </section>         
+    <section class="sections-configuration"  id="menu4">
+      <a href="#menu4">Menu 4</a>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur delectus soluta quibusdam et voluptatum, laborum perspiciatis natus nostrum alias quos cupiditate, necessitatibus autem ex. Animi fugiat veritatis dignissimos commodi?</p>
+    </section>       
+  </div>
+
+
+
+   <!-- casi terminadoa -->
+  <!-- spiner
+   
+  
+  
+  
+  
+  
+  
+  
+  -->
 
     <div class="spinner-border text-primary" role="status">
       <span class="visually-hidden">Cargando...</span>
@@ -88,6 +124,37 @@
     <div class="spinner-border text-dark" role="status">
       <span class="visually-hidden">Loading...</span>
     </div>
+  </div>
+
+
+  <!-- Alerts  -->
+
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-secondary" role="alert">
+    A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-success" role="alert">
+    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-danger" role="alert">
+    A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-warning" role="alert">
+    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-info" role="alert">
+    A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-light" role="alert">
+    A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-dark" role="alert">
+    A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+
+
 
 </body>
 </html>
